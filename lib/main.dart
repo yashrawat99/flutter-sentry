@@ -6,7 +6,7 @@ void main() async {
   await SentryFlutter.init(
     (options) {
       options.dsn =
-          'https://377e3e2fe731489ab6815273105c046a@sentry-web.wheelseye.in/47';
+          'https://98b64d7a34dc4d4fa457c9f6afc95488@o4505005435518976.ingest.sentry.io/4505005439713280';
       options.tracesSampleRate = 1.0;
       options.debug = true;
       options.enableWindowMetricBreadcrumbs = true;
